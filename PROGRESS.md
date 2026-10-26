@@ -3,13 +3,13 @@
 ## Estado General
 - **Situación inicial:** 0 nada de JavaScript
 - **Dedícacion:** 8 horas diarias
-- **Módulo actual:** Módulo 02 (Git y GitHub de verdad)
-- **Rama actual:** `feat/modulo-02-setup`
+- **Módulo actual:** Módulo 03 (El stack más corto que llega a producción)
+- **Rama actual:** `master`
 
 ## Módulos
 - [x] Módulo 00: Dónde estás parado (Diagnóstico y Contrato)
 - [x] Módulo 01: La terminal es tu lugar de trabajo
-- [ ] Módulo 02: Git y GitHub de verdad
+- [x] Módulo 02: Git y GitHub de verdad
 - [ ] Módulo 03: El stack más corto que llega a producción
 - [ ] Módulo 04: SDD: el qué antes del cómo
 - [ ] Módulo 05: El workflow de siete pasos
