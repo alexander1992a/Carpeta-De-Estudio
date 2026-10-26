@@ -4,6 +4,7 @@
 - **Situación inicial:** 0 nada de JavaScript
 - **Dedícacion:** 8 horas diarias
 - **Módulo actual:** Módulo 02 (Git y GitHub de verdad)
+- **Rama actual:** `feat/modulo-02-setup`
 
 ## Módulos
 - [x] Módulo 00: Dónde estás parado (Diagnóstico y Contrato)
