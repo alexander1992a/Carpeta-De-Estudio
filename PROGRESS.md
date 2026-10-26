@@ -3,11 +3,11 @@
 ## Estado General
 - **Situación inicial:** 0 nada de JavaScript
 - **Dedícacion:** 8 horas diarias
-- **Módulo actual:** Módulo 01 (La terminal es tu lugar de trabajo)
+- **Módulo actual:** Módulo 02 (Git y GitHub de verdad)
 
 ## Módulos
 - [x] Módulo 00: Dónde estás parado (Diagnóstico y Contrato)
-- [ ] Módulo 01: La terminal es tu lugar de trabajo
+- [x] Módulo 01: La terminal es tu lugar de trabajo
 - [ ] Módulo 02: Git y GitHub de verdad
 - [ ] Módulo 03: El stack más corto que llega a producción
 - [ ] Módulo 04: SDD: el qué antes del cómo
