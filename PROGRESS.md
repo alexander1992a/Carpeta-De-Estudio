@@ -3,14 +3,14 @@
 ## Estado General
 - **Situación inicial:** 0 nada de JavaScript
 - **Dedícacion:** 8 horas diarias
-- **Módulo actual:** Módulo 03 (El stack más corto que llega a producción)
+- **Módulo actual:** Módulo 04 (SDD: el qué antes del cómo)
 - **Rama actual:** `master`
 
 ## Módulos
 - [x] Módulo 00: Dónde estás parado (Diagnóstico y Contrato)
 - [x] Módulo 01: La terminal es tu lugar de trabajo
 - [x] Módulo 02: Git y GitHub de verdad
-- [ ] Módulo 03: El stack más corto que llega a producción
+- [x] Módulo 03: El stack más corto que llega a producción
 - [ ] Módulo 04: SDD: el qué antes del cómo
 - [ ] Módulo 05: El workflow de siete pasos
 - [ ] Módulo 06: MCP: que el agente haga más por vos

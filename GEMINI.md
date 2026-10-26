@@ -18,5 +18,14 @@ Estoy aprendiendo (nivel cero absoluto en JavaScript). Este proyecto es para que
 - **Gate de entendimiento:** Al cerrar cada fase, hazme 3 preguntas (recorrido, impacto y diagnóstico) antes de continuar.
 - **Registro:** Mantén actualizado el archivo `PROGRESS.md` al terminar cada fase.
 
+## Stack (Módulo 03)
+- **Lenguaje:** JavaScript (y después TypeScript)
+- **Front:** HTML + CSS + Vite
+- **Hosting:** Cloudflare Pages (o Vercel)
+- **Backend (cuando haga falta):** Cloudflare Workers
+- **Datos (cuando haga falta):** Cloudflare D1 (SQLite)
+- **Login (cuando haga falta):** Supabase Auth
+- **Versionado:** Git + GitHub
+
 ## Commits
 En español, imperativo, una línea: "agregar validación del formulario".
