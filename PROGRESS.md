@@ -9,10 +9,10 @@
 ## Módulos
 - [x] Módulo 00: Dónde estás parado (Diagnóstico y Contrato)
 - [x] Módulo 01: La terminal es tu lugar de trabajo
-- [x] Módulo 02: Git y GitHub de verdad
+- [x] Módulo 02: Git y GitHub de verdad (incluye ejercicio completado: Pull Request en first-contributions)
 - [x] Módulo 03: El stack más corto que llega a producción
-- [ ] Módulo 04: SDD: el qué antes del cómo
-- [ ] Módulo 05: El workflow de siete pasos
+- [x] Módulo 04: SDD: el qué antes del cómo (SPEC.md redactado y aprobado para Landing Page Personal)
+- [ ] Módulo 05: El workflow de siete pasos (en proceso con el Plan del Producto 1)
 - [ ] Módulo 06: MCP: que el agente haga más por vos
 - [ ] Módulo 07: Leer código ajeno
 - [ ] Módulo 08: Los cuatro productos
