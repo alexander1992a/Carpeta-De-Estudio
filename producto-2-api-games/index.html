@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador de Juegos - FreeToGame</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Buscador de Videojuegos</h1>
+        <p>Encontrá juegos gratuitos por plataforma y género.</p>
+    </header>
+
+    <main>
+        <section class="search-section">
+            <div class="filters">
+                <select id="platform-filter">
+                    <option value="all">Todas las plataformas</option>
+                    <option value="pc">PC (Windows)</option>
+                    <option value="browser">Navegador Web</option>
+                </select>
+
+                <select id="genre-filter">
+                    <option value="all">Todos los géneros</option>
+                    <option value="mmorpg">MMORPG</option>
+                    <option value="shooter">Shooter</option>
+                    <option value="moba">MOBA</option>
+                    <option value="strategy">Estrategia</option>
+                </select>
+
+                <button id="search-btn">Buscar</button>
+            </div>
+        </section>
+
+        <section id="results-container">
+            <!-- Aquí se renderizarán los juegos en la Fase 2 -->
+            <p id="loading-message" class="hidden">Cargando juegos...</p>
+            <div id="games-grid"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desarrollado como Producto 2 - Curso de Desarrollo Web.</p>
+    </footer>
+
+    <script type="module" src="main.js"></script>
+</body>
+</html>
