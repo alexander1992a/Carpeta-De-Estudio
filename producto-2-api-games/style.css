@@ -102,6 +102,9 @@ button:hover {
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
     transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 .game-card:hover {
@@ -116,6 +119,10 @@ button:hover {
 
 .card-content {
     padding: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-between;
 }
 
 .card-content h3 {
