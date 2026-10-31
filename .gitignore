@@ -3,3 +3,5 @@ CONCEPTOS.md
 GEMINI.md
 node_modules/
 dist/
+.vite/
+.idea/
