@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Turnos de Barbería</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div id="app">
+    <header>
+      <h1>Barbería El Cumpita</h1>
+      <div id="auth-nav">
+        <button id="btn-show-login">Iniciar Sesión</button>
+        <button id="btn-show-register">Registrarse</button>
+        <button id="btn-logout" style="display: none;">Cerrar Sesión</button>
+      </div>
+    </header>
+
+    <main>
+      <section id="auth-section">
+        <div id="login-form-container" class="card">
+          <h2>Iniciar Sesión</h2>
+          <form id="login-form">
+            <input type="email" id="login-email" placeholder="Correo electrónico" required />
+            <input type="password" id="login-password" placeholder="Contraseña" required />
+            <button type="submit">Entrar</button>
+          </form>
+        </div>
+
+        <div id="register-form-container" class="card" style="display: none;">
+          <h2>Registrarse</h2>
+          <form id="register-form">
+            <input type="email" id="register-email" placeholder="Correo electrónico" required />
+            <input type="password" id="register-password" placeholder="Contraseña" required />
+            <button type="submit">Crear Cuenta</button>
+          </form>
+        </div>
+      </section>
+
+      <section id="client-section" style="display: none;">
+        <div class="card">
+          <h2>Reservar un Turno</h2>
+          <form id="booking-form">
+            <label for="booking-date">Fecha y Hora:</label>
+            <input type="datetime-local" id="booking-date" required />
+            <button type="submit">Reservar Turno</button>
+          </form>
+        </div>
+
+        <div class="card">
+          <h2>Mis Turnos</h2>
+          <ul id="my-appointments-list"></ul>
+        </div>
+      </section>
+
+      <section id="admin-section" style="display: none;">
+        <div class="card admin-card">
+          <h2>Panel de Administración (Todos los Turnos)</h2>
+          <ul id="all-appointments-list"></ul>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
